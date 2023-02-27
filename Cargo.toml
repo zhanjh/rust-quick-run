@@ -35,6 +35,10 @@ path = "src/dashmap.rs"
 name = "notify"
 path = "src/notify.rs"
 
+[[bin]]
+name = "md5"
+path = "src/md5.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
