@@ -1,0 +1,46 @@
+[package]
+name = "rust-quick-run"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tcp-client"
+path = "src/tcp-client.rs"
+
+[[bin]]
+name = "tcp-client-frame"
+path = "src/tcp-client-frame.rs"
+
+[[bin]]
+name = "tcp-server"
+path = "src/tcp-server.rs"
+
+[[bin]]
+name = "async-file"
+path = "src/async-file.rs"
+
+[[bin]]
+name = "async-file-buf"
+path = "src/async-file-buf.rs"
+
+[[bin]]
+name = "io-cursor"
+path = "src/io-cursor.rs"
+
+[[bin]]
+name = "dashmap"
+path = "src/dashmap.rs"
+
+[[bin]]
+name = "notify"
+path = "src/notify.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1"
+tokio = { version = "1", features = ["full" ] }
+anyhow = "1"
+md5 = "0.7"
+dashmap = "5"
+notify = "5.1.0"
