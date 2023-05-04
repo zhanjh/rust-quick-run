@@ -20,6 +20,8 @@ fn main() {
     .map(|item| item.key().to_string())
     .collect::<Vec<String>>();
 
+  let mut keys: Vec<String> = map.iter().map(|item| item.key().to_string()).collect();
+
   keys.sort();
 
   for key in keys {

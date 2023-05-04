@@ -8,7 +8,7 @@
   - https://github.com/notify-rs/notify/blob/main/examples/async_monitor.rs
 
 ```sh
-cargon run --bin notify
+cargo run --bin notify
 ```
 
 ## std::io::Cursor
@@ -16,7 +16,7 @@ cargon run --bin notify
 - https://doc.rust-lang.org/std/io/struct.Cursor.html
 
 ```sh
-cargon run --bin io-cursor
+cargo run --bin io-cursor
 ```
 
 ## dashmap
